@@ -1,0 +1,39 @@
+.mc .step {
+    margin-top: 15px;
+    overflow: hidden;
+    background: #ededed;
+    color: #999999;
+    font-weight: bold;
+    zoom: 1;
+    width: 370px;
+    margin-bottom: 15px;
+}
+#step1 .on{
+    background: #ffe6bc;
+    color: #ff6600;
+}
+.step li {
+    float: left;
+    position: relative;
+    padding-left: 22px;
+    padding-right: 35px;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+#step1 .on b{
+    background-position: 0 -26px;
+}
+.step li b {
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    background: url(//misc.360buyimg.com/jd2008/skin/df/i/flow.gif) no-repeat;
+    top: 0;
+    right: -1px;
+}
+.msg-text{
+    margin-left: 150px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}

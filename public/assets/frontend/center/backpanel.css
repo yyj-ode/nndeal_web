@@ -1,0 +1,86 @@
+
+/* user-myjd-2015 backpanel.css Date:2015-12-24 14:17:18*/
+@charset "UTF-8";
+.backpanel-inner {
+    position:fixed;
+    z-index:1000;
+    left:50%;
+    bottom:0;
+    margin-left:495px;
+    _position:absolute;
+    _right:auto;
+    _bottom:auto;
+    _top:expression(document.documentElement.scrollTop+documentElement.clientHeight-this.clientHeight)
+}
+.backpanel-inner .bp-item {
+    width:25px
+}
+.backpanel-inner .bp-item a {
+    display:block;
+    position:relative;
+    width:17px;
+    height:66px;
+    padding:28px 4px 0;
+    margin:5px 0;
+    text-align:center;
+    line-height:14px;
+    text-decoration:none;
+    background:url(../../images/center/backpanel-icon.png) -105px 0 no-repeat
+}
+.backpanel-inner .bp-item a b {
+    position:absolute;
+    top:9px;
+    left:4px;
+    width:17px;
+    height:16px;
+    overflow:hidden;
+    background-image:url(../../images/center/backpanel-icon.png)
+}
+.backpanel-inner .bp-item a:hover {
+    line-height:14px;
+    color:#c00;
+    background-position:-70px 0;
+    text-decoration:none
+}
+.backpanel-inner .bp-item a.backold {
+    background:url(../../images/center/backpanel-icon.png) 0 0 no-repeat;
+    height:64px;
+    color:#ff7867;
+    padding-top:24px
+}
+.backpanel-inner .bp-item a.backold b {
+    background-position:0 -96px
+}
+.backpanel-inner .bp-item a.backold:hover {
+    background-position:-35px 0;
+    color:#fff
+}
+.backpanel-inner .bp-item a.backold:hover b {
+    background-position:0 -115px
+}
+.backpanel-inner .bp-item .research b {
+    background-position:-16px -115px
+}
+.backpanel-inner .bp-item .research:hover b {
+    background-position:-16px -96px
+}
+.backpanel-inner .bp-item .gotop b {
+    background-position:-40px -115px
+}
+.backpanel-inner .bp-item .gotop:hover b {
+    background-position:-40px -96px
+}
+@media screen and (min-width:1040px) and (max-width:1279px) {
+    .w .backpanel-inner {
+        margin-left:47%
+    }
+}.root60 .w .backpanel-inner {
+     margin-left:47%
+ }
+@media screen and (min-width:1280px) {
+    .w .backpanel-inner {
+        margin-left:605px
+    }
+}.root61 .w .backpanel-inner {
+     margin-left:605px
+ }

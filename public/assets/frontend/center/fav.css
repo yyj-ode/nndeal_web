@@ -1,0 +1,230 @@
+
+/* user-myjd-2015 myjd.fav.css Date:2016-01-19 15:56:40*/
+.jdcheckbox,.jdradio {
+    float:none;
+    vertical-align:-2px;
+    _vertical-align:-1px;
+    margin:0 5px 0 0;
+    padding:0
+}
+table.tb-act {
+    width:100%
+}
+table.tb-act th {
+    font-weight:700
+}
+table.tb-act td {
+    border:0
+}
+table.tb-act a {
+    color:#333
+}
+table.tb-act a:hover {
+    color:#e4393c
+}
+div.icon-box .quan-icon {
+    height:72px;
+    background:url(../../images/center/fav-coupon.png) no-repeat;
+    overflow:hidden
+}
+div.joy-icon-box .qjoy-icon {
+    width:55px;
+    height:70px;
+    background:url(../../images/center/qjoy-icon.png) no-repeat
+}
+div.joy-icon-box .item-fore {
+    margin-left:75px
+}
+.view-shop b {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:14px;
+    height:14px;
+    margin:-2px 3px 0 0;
+    overflow:hidden;
+    vertical-align:middle;
+    background:url(../../images/center/fav-icons.png) -25px -60px
+}
+div.fav-toolbar {
+    display:inline-block;
+    display:block
+}
+div.fav-toolbar:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+* html div.fav-toolbar {
+    height:1%
+}
+*+html div.fav-toolbar {
+    min-height:1%
+}
+div.fav-toolbar .toolbar-l {
+    float:left;
+    height:26px;
+    line-height:26px
+}
+div.fav-toolbar .btn-addcart {
+    padding:0 10px 0 0
+}
+div.fav-toolbar .pagin a {
+    font-weight:700
+}
+div.fav-toolbar .pagin a,div.fav-toolbar .pagin span {
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px
+}
+div.fav-toolbar .pagin b {
+    background-image:url(../../images/center/bg_hotsale.gif);
+    background-repeat:no-repeat;
+    top:7px;
+    left:7px
+}
+div.fav-toolbar .pagin .prev-disabled b {
+    left:7px
+}
+div.fav-toolbar .pagin .next-disabled b {
+    left:4px
+}
+div.fav-toolbar .pagin .next,div.fav-toolbar .pagin .next-disabled,div.fav-toolbar .pagin .prev,div.fav-toolbar .pagin .prev-disabled {
+    padding:3px 10px 2px
+}
+div.fav-toolbar .btn-addcart {
+    border-right:1px solid #999
+}
+.ui-page-wrap .mb-ops {
+    height:30px;
+    line-height:30px
+}
+.ui-page-wrap .btn-addcart {
+    padding:0 10px 0 0;
+    border-right:1px solid #999
+}
+.fav-empty-cont {
+    text-align:center;
+    line-height:71px;
+    font-size:14px
+}
+.fav-empty-cont b {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:100px;
+    height:71px;
+    vertical-align:middle;
+    background:url(../../images/center/fav-joy-icon.png) no-repeat;
+    overflow:hidden
+}
+.fav-tips {
+    width:280px;
+    line-height:20px
+}
+.fav-tips .dquan,.fav-tips .jquan {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    color:#fff;
+    height:14px;
+    line-height:14px;
+    padding:0 1px;
+    margin-right:3px;
+    background:#ff8652
+}
+.fav-tips .gift-item {
+    display:inline-block;
+    display:block;
+    position:relative;
+    margin-bottom:10px;
+    padding-left:36px
+}
+.fav-tips .gift-item:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+* html .fav-tips .gift-item {
+    height:1%
+}
+*+html .fav-tips .gift-item {
+    min-height:1%
+}
+.fav-tips .gift-item .label {
+    position:absolute;
+    left:0;
+    top:0;
+    width:36px
+}
+.fav-tips .gift-item .p-img {
+    float:left;
+    width:50px;
+    margin-right:10px;
+    border:1px solid #ddd;
+    _display:inline
+}
+.fav-tips .gift-item .p-name {
+    float:left;
+    height:40px;
+    line-height:20px;
+    overflow:hidden;
+    width:150px
+}
+.fav-tips .gift-item .num,.fav-tips .gift-item .price {
+    font-family:verdana
+}
+.fav-tips .tb-void {
+    background:#fff
+}
+div.fav-form .tit {
+    margin:0 0 10px 10px
+}
+div.fav-form .item span.label {
+    width:115px
+}
+div.fav-form .itxt {
+    width:220px;
+    padding:5px
+}
+div.fav-form .itxt02 {
+    width:60px
+}
+.fav-subs .tit {
+    margin:0 0 10px 10px
+}
+.fav-error-msg {
+    position:relative;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    height:20px;
+    line-height:20px;
+    width:130px;
+    left:20px;
+    padding-left:20px;
+    background:#ffebeb;
+    border:1px solid #ffbdbe;
+    color:#e4393c
+}
+.fav-error-msg b {
+    position:absolute;
+    display:block;
+    left:5px;
+    top:4px;
+    height:12px;
+    width:12px;
+    overflow:hidden;
+    background:url(../../images/center/fav-icons.png) -50px -61px
+}
+div#main {
+    overflow:visible
+}
+.fav-cont,.fav-goods-list {
+    overflow:hidden;
+    width:100%
+}

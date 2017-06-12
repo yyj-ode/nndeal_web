@@ -1,0 +1,104 @@
+@media screen and (min-width: 1280px) {
+    div.w .backpanel-inner {
+
+        margin-left: 605px;
+    }
+}
+
+.fav-goods-list .fav-goods-item .p-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.float-l{
+
+    float:left;
+}
+.ml50 {
+
+    margin-left: 50px;
+}
+.ml15 {
+
+    margin-left: 15px;
+}
+
+.pt100 {
+
+    padding-top: 100px;
+}
+.pt50 {
+
+    padding-top: 50px;
+}
+
+div.p-float-opbtns {
+
+    z-index: 9;
+}
+
+div.p-float-opbtns .simi-btn {
+
+    float: left;
+}
+
+div.p-float-opbtns .go-shop-btn {
+
+    float: right;
+    right: 25px;
+}
+
+.fav-goods-list .fav-goods-item .offline-box {
+
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    filter: progid : DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99000000', endColorstr='#99000000');
+    background: rgba(0, 0, 0, .6)
+}
+
+.fav-goods-list .fav-goods-item .offline-box .offline-cont {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    color: #fff;
+    filter: progid : DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99000000', endColorstr='#99000000');
+    background: rgba(0, 0, 0, .6);
+    text-align: center
+}
+
+.fav-goods-list .fav-goods-item .offline-box .offline-text {
+    font-size: 12px;
+    font-family: '\5fae\8f6f\96c5\9ed1'
+}
+
+.blockalign {
+
+    display: block;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+}
+.blockalign div {
+
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    height: 100px;
+}
+
+.subscribe-error-msg {
+
+    margin-left: 10px;
+    color: red;
+}
+
+.fav-list .i-store .s-name{
+    max-width:170px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
